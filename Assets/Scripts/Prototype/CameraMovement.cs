@@ -17,7 +17,7 @@ public class CameraMovement : MonoBehaviour
     [Header("Max Look up and down")]
     public float yMaxAngle;
     public float yMinAngle;
-    Vector2 mouseLook;
+    public Vector2 mouseLook;
     Vector2 smoothV;
     public Transform playerTRA;
     private void Update()
@@ -30,7 +30,6 @@ public class CameraMovement : MonoBehaviour
         mouseLook += smoothV;
 
         mouseLook.y = Mathf.Clamp(mouseLook.y, yMinAngle, yMaxAngle);
-
         transform.localRotation = Quaternion.AngleAxis(-mouseLook.y, Vector3.right);
         playerTRA.localRotation = Quaternion.AngleAxis(mouseLook.x, playerTRA.up);
 

@@ -10,15 +10,20 @@ public class BulletDebugScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.AddRelativeForce(Vector3.up * 100000);
+        StartCoroutine("DestroyTimer");
     }
 
     void OnCollisionEnter(Collision hit)
     {
-        print(hit.collider.name + ". at " + transform.position);
         if(hit.collider.name != "Bullet(Clone)")
         {
             Destroy(gameObject);
         }
         
+    }
+    IEnumerator DestroyTimer()
+    {
+        yield return new WaitForSeconds(10);
+        Destroy(gameObject);
     }
 }

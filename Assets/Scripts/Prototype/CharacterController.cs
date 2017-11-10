@@ -4,22 +4,28 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
+    [Header("Recoil Settings")]
+    public float recoilWep1;
+    public float recoilWep2;
     [Header("Movement")]
     public float movementSpeed = 10;
     [Header("Weapon Manager")]
     public int currentWep;
-    public bool hasWeapon1, hasWeapon2,switchingWeapon,gotWeapon;
+    public bool hasWeapon1, hasWeapon2,switchingWeapon,gotWeapon,canFire;
     public GameObject currentWeapon1, currentWeapon2, CurrentWeaponLocation, PutAwayWeaponLocation, PutAwayWeaponLocation2;
     public int weapon1MaxAmmo, weapon2MaxAmmo, weapon1CurrentAmmo, weapon2CurrentAmmo;
     public GameObject bulletPref;
-    public Transform bulletSpawn,playerTra;
+    public Transform bulletSpawn1,bulletSpawn2,playerTra;
+    [Header("Scripts")]
+    public CameraMovement camMov;
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Escape)) { Cursor.lockState = CursorLockMode.None; }
+        if (Input.GetKey(KeyCode.Escape) && Cursor.lockState == CursorLockMode.None) { Cursor.lockState = CursorLockMode.Locked; }
+        if (Input.GetKey(KeyCode.Escape) && Cursor.lockState == CursorLockMode.Locked) { Cursor.lockState = CursorLockMode.None; }
         Movement();
         StartCoroutine("WeaponManager");
     }
@@ -86,21 +92,30 @@ public class CharacterController : MonoBehaviour
 
 
         #region Weapon Shooting
-        if (Input.GetMouseButton(0) && gotWeapon && currentWep == 1)
+        if (Input.GetMouseButton(0) && gotWeapon && currentWep == 1 && weapon1CurrentAmmo > 0 && canFire)
         {
             GameObject currentBul = Instantiate(bulletPref);
-            currentBul.transform.position = bulletSpawn.position;
-            currentBul.transform.parent = bulletSpawn;
+            currentBul.transform.position = bulletSpawn1.position;
+            currentBul.transform.parent = bulletSpawn1;
             currentBul.transform.localRotation = Quaternion.Euler(-90, 0, 0);
             currentBul.transform.parent = null;
             currentBul.transform.localScale = new Vector3(0.1668645f, 0.1668645f, 0.1668645f);
-            yield return null;
+            weapon1CurrentAmmo--;
+            camMov.mouseLook = new Vector2(camMov.mouseLook.x, camMov.mouseLook.y + recoilWep1);
+            canFire = false;
+            yield return new WaitForSeconds(0.1f);
+            canFire = true;
         }
-        else if (Input.GetMouseButtonDown(0) && gotWeapon && currentWep == 2)
+        else if (Input.GetMouseButtonDown(0) && gotWeapon && currentWep == 2 && canFire && weapon2CurrentAmmo > 0)
         {
             GameObject currentBul = Instantiate(bulletPref);
-            currentBul.transform.position = bulletSpawn.position;
-            currentBul.transform.rotation = Quaternion.Euler(playerTra.rotation.x, playerTra.rotation.y, playerTra.rotation.z + 90);
+            currentBul.transform.position = bulletSpawn2.position;
+            currentBul.transform.parent = bulletSpawn2;
+            currentBul.transform.localRotation = Quaternion.Euler(-90, 0, 0);
+            currentBul.transform.parent = null;
+            currentBul.transform.localScale = new Vector3(0.1668645f, 0.1668645f, 0.1668645f);
+            weapon2CurrentAmmo--;
+            camMov.mouseLook = new Vector2(camMov.mouseLook.x, camMov.mouseLook.y + recoilWep2);
         }
         #endregion
         #region Weapon Reloading
