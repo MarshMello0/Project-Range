@@ -63,7 +63,7 @@ public class CharacterController : MonoBehaviour
         {
             jump = 1 * jumpHeight;
             playerRB.AddRelativeForce(new Vector3(playerRB.velocity.x, jump, playerRB.velocity.z),ForceMode.VelocityChange);
-            print("Jumped");
+            isGrounded = false;
         }
         
         transform.Translate(straffe, 0, translation);
@@ -163,5 +163,10 @@ public class CharacterController : MonoBehaviour
         }
         #endregion
 
+    }
+
+    void OnCollisionStay(Collision col)
+    {
+        isGrounded = true;
     }
 }
