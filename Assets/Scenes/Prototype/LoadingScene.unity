@@ -138,12 +138,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cPause: 27
   cLeft: 97
-  cRight: 98
+  cRight: 100
   cBackwards: 115
   cForwards: 119
   cJump: 32
   cADS: 324
   cShoot: 323
+  cMMView: 118
   igsAimSens: 1
   igsTogADS: 0
   igsTogCrouch: 0

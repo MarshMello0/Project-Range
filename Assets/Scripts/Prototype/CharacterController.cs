@@ -9,6 +9,9 @@ public class CharacterController : MonoBehaviour
     public float recoilWep2;
     [Header("Movement")]
     public float movementSpeed = 10;
+    public float jumpHeight;
+    public Rigidbody playerRB;
+    public bool isGrounded;
     [Header("Weapon Manager")]
     public int currentWep;
     public bool hasWeapon1, hasWeapon2,switchingWeapon,gotWeapon,canFire;
@@ -18,23 +21,51 @@ public class CharacterController : MonoBehaviour
     public Transform bulletSpawn1,bulletSpawn2,playerTra;
     [Header("Scripts")]
     public CameraMovement camMov;
+    public UserSettings settings;
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        settings = GameObject.Find("DDOL").GetComponent<UserSettings>();
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Escape) && Cursor.lockState == CursorLockMode.None) { Cursor.lockState = CursorLockMode.Locked; }
-        if (Input.GetKey(KeyCode.Escape) && Cursor.lockState == CursorLockMode.Locked) { Cursor.lockState = CursorLockMode.None; }
+        if (Input.GetKey(KeyCode.F1) && Cursor.lockState == CursorLockMode.None) { Cursor.lockState = CursorLockMode.Locked; }
+        if (Input.GetKey(KeyCode.F2) && Cursor.lockState == CursorLockMode.Locked) { Cursor.lockState = CursorLockMode.None; }
         Movement();
         StartCoroutine("WeaponManager");
     }
     private void Movement()
     {
-        float translation = Input.GetAxis("Vertical") * movementSpeed;
-        float straffe = Input.GetAxis("Horizontal") * movementSpeed;
+        float translation = 0;
+        float straffe = 0;
+        float jump = 0;
+        if (Input.GetKey(settings.cForwards))
+        {
+            translation = 1 * movementSpeed;
+            
+        }
+        else if (Input.GetKey(settings.cBackwards))
+        {
+            translation = -1 * movementSpeed;
+        }
+        if (Input.GetKey(settings.cRight))
+        {
+            straffe = 1 * movementSpeed;
+        }
+        else if (Input.GetKey(settings.cLeft))
+        {
+            straffe = -1 * movementSpeed;
+        }
         translation *= Time.deltaTime;
         straffe *= Time.deltaTime;
+        
+        if (Input.GetKeyDown(settings.cJump) && isGrounded)
+        {
+            jump = 1 * jumpHeight;
+            playerRB.AddRelativeForce(new Vector3(playerRB.velocity.x, jump, playerRB.velocity.z),ForceMode.VelocityChange);
+            print("Jumped");
+        }
+        
         transform.Translate(straffe, 0, translation);
     }
 
