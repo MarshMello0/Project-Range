@@ -118,6 +118,8 @@ GameObject:
   - component: {fileID: 1394676774}
   - component: {fileID: 1394676773}
   - component: {fileID: 1394676772}
+  - component: {fileID: 1394676775}
+  - component: {fileID: 1394676776}
   m_Layer: 0
   m_Name: DDOL
   m_TagString: Untagged
@@ -175,6 +177,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394676775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394676771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64d494b3c08d424c914b975914f51f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  presence:
+    state: 
+    details: 
+    startTimestamp: 0
+    endTimestamp: 0
+    largeImageKey: default
+    largeImageText: 
+    smallImageKey: 
+    smallImageText: 
+    partyId: 
+    partySize: 0
+    partyMax: 0
+    matchSecret: 
+    joinSecret: 
+    spectateSecret: 
+    instance: 0
+  applicationId: 382681520894378017
+  optionalSteamId: 
+  callbackCalls: 0
+  clickCounter: 0
+  onConnect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onDisconnect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onJoin:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DiscordJoinEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onSpectate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DiscordJoinEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onJoinRequest:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DiscordJoinRequestEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &1394676776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394676771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f832f2c9dc35234e908d05931525641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1617541276
 GameObject:
   m_ObjectHideFlags: 0

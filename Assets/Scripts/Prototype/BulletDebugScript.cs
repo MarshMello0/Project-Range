@@ -9,7 +9,7 @@ public class BulletDebugScript : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.AddRelativeForce(Vector3.up * 100000);
+        rb.AddRelativeForce(-Vector3.up * 100000);
         StartCoroutine("DestroyTimer");
     }
 
