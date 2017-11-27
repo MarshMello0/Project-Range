@@ -128,9 +128,10 @@ public class CharacterController : MonoBehaviour
             GameObject currentBul = Instantiate(bulletPref);
             currentBul.transform.position = bulletSpawn1.position;
             currentBul.transform.parent = bulletSpawn1;
-            currentBul.transform.localRotation = Quaternion.Euler(-90, 0, 0);
+            currentBul.transform.localRotation = Quaternion.Euler(180, 0, 0);
             currentBul.transform.parent = null;
             currentBul.transform.localScale = new Vector3(0.1668645f, 0.1668645f, 0.1668645f);
+
             weapon1CurrentAmmo--;
             camMov.mouseLook = new Vector2(camMov.mouseLook.x, camMov.mouseLook.y + recoilWep1);
             canFire = false;
@@ -142,7 +143,7 @@ public class CharacterController : MonoBehaviour
             GameObject currentBul = Instantiate(bulletPref);
             currentBul.transform.position = bulletSpawn2.position;
             currentBul.transform.parent = bulletSpawn2;
-            currentBul.transform.localRotation = Quaternion.Euler(-90, 0, 0);
+            currentBul.transform.localRotation = Quaternion.Euler(180, 0, 0);
             currentBul.transform.parent = null;
             currentBul.transform.localScale = new Vector3(0.1668645f, 0.1668645f, 0.1668645f);
             weapon2CurrentAmmo--;
