@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 1394676772}
   - component: {fileID: 1394676775}
   - component: {fileID: 1394676776}
+  - component: {fileID: 1394676777}
   m_Layer: 0
   m_Name: DDOL
   m_TagString: Untagged
@@ -244,6 +245,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f832f2c9dc35234e908d05931525641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1394676777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394676771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c45031e37cd3a549b1b12ad985e0556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ak47BSpeed: 2852
 --- !u!1 &1617541276
 GameObject:
   m_ObjectHideFlags: 0

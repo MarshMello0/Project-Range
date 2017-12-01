@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf697b7f2cdabe4bb793ab28fe40fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 2852
   initialVelocity: {x: 0, y: 0, z: 0}
   gravity: {x: 0, y: -9.8, z: 0}
   currentVelocity: {x: 0, y: 0, z: 0}
