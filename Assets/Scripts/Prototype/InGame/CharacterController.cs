@@ -33,7 +33,7 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKey(KeyCode.F2) && Cursor.lockState == CursorLockMode.Locked) { Cursor.lockState = CursorLockMode.None; }
         Movement();
         StartCoroutine("WeaponManager");
-        Debug.DrawRay(Camera.main.transform.position, , Color.red);
+        Debug.DrawRay(Camera.main.transform.position, transform.forward, Color.red);
         if (Input.GetKeyDown(settings.cInteract))
         {
             RaycastHit hit;
