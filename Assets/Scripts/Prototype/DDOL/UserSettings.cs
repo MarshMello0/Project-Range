@@ -7,7 +7,7 @@ public class UserSettings : MonoBehaviour
     [Header("Users Controlls")]
     public KeyCode cPause;
     //In-Game
-    public KeyCode cLeft, cRight, cBackwards, cForwards, cJump,cADS, cShoot,cMMView;
+    public KeyCode cLeft, cRight, cBackwards, cForwards, cJump,cADS, cShoot,cMMView, cInteract;
     //Other
     [Header("In Game Settings")]
     //Mouse

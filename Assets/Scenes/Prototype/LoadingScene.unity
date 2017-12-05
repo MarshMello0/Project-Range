@@ -148,6 +148,7 @@ MonoBehaviour:
   cADS: 324
   cShoot: 323
   cMMView: 118
+  cInteract: 101
   igsAimSens: 1
   igsTogADS: 0
   igsTogCrouch: 0

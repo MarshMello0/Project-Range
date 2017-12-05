@@ -45,7 +45,6 @@ public class TargetControllerBasic : MonoBehaviour
     }
     private void Update()
     {
-
         #region movementAlongLine
         if (currentDis > targetEndDis)
         {
@@ -80,6 +79,10 @@ public class TargetControllerBasic : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (!Application.isPlaying)
+        {
+            startPos = transform.position;
+        }
         Gizmos.color = Color.white;
         if (moveOnX && !axisInverted)
         {
@@ -101,5 +104,23 @@ public class TargetControllerBasic : MonoBehaviour
         {
             Debug.LogError("Error OnDrawGizmosSelected - TargetControllerBasic");
         }
+    }
+    void MoveDown()
+    {
+        if (currentDis > 0)
+        {
+            currentDis--;
+        }
+    }
+    void MoveUp()
+    {
+        if (currentDis < targetEndDis)
+        {
+            currentDis++;
+        }
+    }
+    public void Test()
+    {
+        print("Test");
     }
 }
