@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class TargetControllerBasic : MonoBehaviour
 { 
@@ -10,32 +11,26 @@ public class TargetControllerBasic : MonoBehaviour
     [Space]
 
     [Header("Settings")]
-    [SerializeField]
-    [Tooltip("This is which axis is will move along out of x and z")]
-    private bool moveOnX;
-    [SerializeField]
-    [Tooltip("if to invert the one above")]
-    private bool axisInverted;
-    [SerializeField]
-    [Tooltip("This is the furthest point it can go")]
-    private float targetEndDis;
-    [SerializeField]
-    [Tooltip("This is if its poped up")]
-    private bool isPoped;
+    [SerializeField][Tooltip("This is which axis is will move along out of x and z")]private bool moveOnX;
+    [SerializeField][Tooltip("if to invert the one above")]private bool axisInverted;
+    [Tooltip("This is the furthest point it can go")]public float targetEndDis;
+    [SerializeField][Tooltip("This is if its poped up")]private bool isPoped;
+    [Tooltip("This is the distance its gonna move to")]public float aimedDis;
+    [Tooltip("This is the speed its gonna take to move to aimeddis")][Range(0.001f,2)]public float moveTime;
 
     [Header("Copy and paste currents transforms position in here so gizmos in editor line is correct")]
-    [SerializeField]
-    [Tooltip("This is the start point(This will get set to a point in space on start of game)")]
-    private Vector3 startPos;
+    [SerializeField][Tooltip("This is the start point(This will get set to a point in space on start of game)")]private Vector3 startPos;
 
     [Space]
+    [Header("Text for dis")]
+    [SerializeField] private Text disText;
+    [Space]
 
-    [SerializeField]
-    [Tooltip("This is if its at the start(This will change its self to true at start)")]
-    private bool atStart;
-    [SerializeField]
-    [Tooltip("This is the current distance(This will change to 0 at start)")]
-    private float currentDis;
+    [SerializeField][Tooltip("This is if its at the start(This will change its self to true at start)")]private bool atStart;
+    [SerializeField][Tooltip("This is the current distance(This will change to 0 at start)")]private float currentDis;
+
+    public bool isMoving;
+
     #endregion
     private void Start()
     {
@@ -45,6 +40,7 @@ public class TargetControllerBasic : MonoBehaviour
     }
     private void Update()
     {
+        disText.text = (currentDis + 5) + "m";
         #region movementAlongLine
         if (currentDis > targetEndDis)
         {
@@ -105,22 +101,32 @@ public class TargetControllerBasic : MonoBehaviour
             Debug.LogError("Error OnDrawGizmosSelected - TargetControllerBasic");
         }
     }
-    void MoveDown()
+    public IEnumerator MoveDown()
     {
-        if (currentDis > 0)
+        if (aimedDis < currentDis)
         {
-            currentDis--;
+            currentDis -= 0.3f;
+            print("Moved Down");
+            yield return new WaitForSeconds(moveTime);
+            StartCoroutine("MoveDown");
+        }
+        else
+        {
+            isMoving = false;
         }
     }
-    void MoveUp()
+    public IEnumerator MoveUp()
     {
-        if (currentDis < targetEndDis)
+        if (aimedDis > currentDis)
         {
-            currentDis++;
+            currentDis += 0.3f;
+            print("Moved Up");
+            yield return new WaitForSeconds(moveTime);
+            StartCoroutine("MoveUp");
         }
-    }
-    public void Test()
-    {
-        print("Test");
+        else
+        {
+            isMoving = false;
+        }
     }
 }

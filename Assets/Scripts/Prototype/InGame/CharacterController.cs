@@ -42,11 +42,30 @@ public class CharacterController : MonoBehaviour
             {
                 if (hit.transform.name == "UP")
                 {
-                    
+                    targetCB.aimedDis += 10;
+                    if (targetCB.aimedDis > targetCB.targetEndDis)
+                    {
+                        targetCB.aimedDis = targetCB.targetEndDis;
+                    }
+                    if (!targetCB.isMoving)
+                    {
+                        targetCB.StartCoroutine("MoveUp");
+                    }
+                    targetCB.isMoving = true;
                 }
                 else if (hit.transform.name == "Down")
                 {
-
+                    targetCB.aimedDis -= 10;
+                    if (targetCB.aimedDis < 0)
+                    {
+                        targetCB.aimedDis = 0;
+                    }
+                    if (!targetCB.isMoving)
+                    {
+                        targetCB.StartCoroutine("MoveDown");
+                    }
+                    
+                    targetCB.isMoving = true;
                 }
             }
         }
