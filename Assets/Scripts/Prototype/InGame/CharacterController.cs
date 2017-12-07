@@ -22,6 +22,7 @@ public class CharacterController : MonoBehaviour
     [Header("Scripts")]
     public CameraMovement camMov;
     public UserSettings settings;
+    public TargetControllerBasic targetCB;
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -33,14 +34,20 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKey(KeyCode.F2) && Cursor.lockState == CursorLockMode.Locked) { Cursor.lockState = CursorLockMode.None; }
         Movement();
         StartCoroutine("WeaponManager");
-        Debug.DrawRay(Camera.main.transform.position, transform.forward, Color.red);
         if (Input.GetKeyDown(settings.cInteract))
         {
             RaycastHit hit;
             
             if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
             {
-                print(hit.transform.name);
+                if (hit.transform.name == "UP")
+                {
+                    
+                }
+                else if (hit.transform.name == "Down")
+                {
+
+                }
             }
         }
     }
