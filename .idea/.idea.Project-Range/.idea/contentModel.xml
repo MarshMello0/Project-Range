@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="A:\Program Files\Github\Project-Range\Project-Range" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Discord" t="Include">
+            <e p="DiscordController.cs" t="Include" />
+            <e p="DiscordRpc.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="2DClouds.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Prototype" t="Include">
+            <e p="Challenges" t="Include">
+              <e p="ChallengeManager.cs" t="Include" />
+              <e p="TargetController.cs" t="Include" />
+              <e p="TargetControllerBasic.cs" t="Include" />
+              <e p="TargetsList.cs" t="Include" />
+            </e>
+            <e p="DDOL" t="Include">
+              <e p="DDOL.cs" t="Include" />
+              <e p="DiscordManager.cs" t="Include" />
+              <e p="UserSettings.cs" t="Include" />
+              <e p="WeaponInfo.cs" t="Include" />
+            </e>
+            <e p="InGame" t="Include">
+              <e p="Bullet.cs" t="Include" />
+              <e p="BulletDebugScript.cs" t="Include" />
+              <e p="CameraMovement.cs" t="Include" />
+              <e p="CharacterController.cs" t="Include" />
+              <e p="Compass.cs" t="Include" />
+              <e p="DontGoThroughThings.cs" t="Include" />
+              <e p="UIManager.cs" t="Include" />
+              <e p="WeatherManager.cs" t="Include" />
+            </e>
+            <e p="LoadingScene" t="Include">
+              <e p="LoadMainMenu.cs" t="Include" />
+            </e>
+            <e p="MainMenu" t="Include">
+              <e p="ToScene.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Prototyping" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="WorldCoordDiffuse.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Project-Range.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\Ben W\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_Project-Range.-1676696798.00" t="ExcludeRecursive" />
+  </component>
+</project>

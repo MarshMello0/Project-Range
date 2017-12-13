@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterController : MonoBehaviour
@@ -106,7 +105,7 @@ public class CharacterController : MonoBehaviour
     }
 
 
-    IEnumerator WeaponManager()
+    private  IEnumerator WeaponManager()
     {
         
         #region Switching Weapons
@@ -149,12 +148,12 @@ public class CharacterController : MonoBehaviour
         {
             currentWep = 1;
             gotWeapon = false;
-        };
+        }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             currentWep = 2;
             gotWeapon = false;
-        };
+        }
         #endregion
 
 
