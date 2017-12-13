@@ -31,6 +31,8 @@ public class ChallengeManager : MonoBehaviour
     [Space] 
     [Tooltip("This is an array of the time delays for when the tartget pops up")] public float[] targets_PopUpDelay;
     [Tooltip("This is an array of the time delays for when the targets goes down if not hit")] public float[] targets_DropDelay;
+
+    private bool isPlaying;
     
     #endregion
 

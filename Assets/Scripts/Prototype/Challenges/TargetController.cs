@@ -12,7 +12,7 @@ public class TargetController : MonoBehaviour
     #region Variables
 
     [Header("Settings")] 
-    [Tooltip("This is the order which this target will pop up in")] [Range(0,99)] public int target_Number;
+    [Tooltip("This is the order which this target will pop up in")] [Range(1,99)] public int target_Number;
     [Header("Scripts")]
     [Tooltip("This is the Challenge Manager")] public ChallengeManager manager;
     

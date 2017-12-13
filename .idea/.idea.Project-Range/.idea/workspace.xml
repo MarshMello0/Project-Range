@@ -10,86 +10,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CharacterController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
+            <state relative-caret-position="306">
               <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <marker date="1513106581153" expanded="true" signature="6:44" ph="..." />
-                <marker date="1513106581153" expanded="true" signature="94:7474" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="931:1066" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="1092:2653" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="1463:2647" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="1619:2637" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="1681:2133" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="1811:1922" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="1966:2069" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="2188:2623" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="2298:2389" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="2433:2538" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="2681:3648" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="2815:2893" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="2945:3011" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="3054:3115" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="3162:3224" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="3367:3579" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="3691:7392" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="3715:5074" ph="Switching Weapons" />
-                <marker date="1513106581153" expanded="true" signature="3803:4395" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="4463:5055" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="5084:5552" ph="Checking for users input to keys" />
-                <marker date="1513106581153" expanded="true" signature="5153:5201" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="5235:5283" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="5329:5408" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="5454:5533" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="5563:7047" ph="Weapon Shooting" />
-                <marker date="1513106581153" expanded="true" signature="5692:6357" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="6472:7028" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="7056:7385" ph="Weapon Reloading" />
-                <marker date="1513106581153" expanded="true" signature="7134:7366" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="7177:7258" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="7275:7356" ph="{...}" />
-                <marker date="1513106581153" expanded="true" signature="7433:7472" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChallengeManager.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChallengeManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="71">
+              <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
               <folding>
-                <marker date="1513124586973" expanded="false" signature="6:78" ph="..." />
-                <marker date="1513124586973" expanded="true" signature="126:2408" ph="{...}" />
-                <marker date="1513124586973" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
-                <marker date="1513124586973" expanded="true" signature="426:1661" ph="Variables" />
-                <marker date="1513124586973" expanded="true" signature="1687:1892" ph="{...}" />
-                <marker date="1513124586973" expanded="true" signature="1737:1886" ph="{...}" />
-                <marker date="1513124586973" expanded="true" signature="1933:2406" ph="{...}" />
-                <marker date="1513124586973" expanded="true" signature="2051:2400" ph="{...}" />
-                <marker date="1513124586973" expanded="true" signature="2120:2390" ph="{...}" />
+                <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+                <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+                <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+                <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+                <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+                <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+                <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+                <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+                <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TargetController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TargetController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="442">
+              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
-                <marker date="1513124586893" expanded="true" signature="6:78" ph="..." />
-                <marker date="1513124586893" expanded="true" signature="125:816" ph="{...}" />
-                <marker date="1513124586893" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
-                <marker date="1513124586893" expanded="true" signature="252:529" ph="Variables" />
-                <marker date="1513124586893" expanded="true" signature="581:669" ph="{...}" />
-                <marker date="1513124586893" expanded="true" signature="694:738" ph="{...}" />
-                <marker date="1513124586893" expanded="true" signature="766:814" ph="{...}" />
+                <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+                <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+                <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+                <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+                <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+                <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,12 +62,9 @@
       <file leaf-file-name="TargetsList.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="34">
               <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding>
-                <marker date="1513114150886" expanded="false" signature="6:78" ph="..." />
-                <marker date="1513114150886" expanded="true" signature="121:130" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,8 +86,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChellengeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs" />
       </list>
     </option>
   </component>
@@ -136,7 +97,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="97" />
     <option name="y" value="-15" />
     <option name="width" value="1279" />
@@ -157,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -164,48 +126,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Project-Range (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Project-Range (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Project-Range (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Project-Range (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Project-Range (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Prototype" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Project-Range (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Prototype" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Challenges" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,11 +165,12 @@
       <updated>1513102224058</updated>
       <workItem from="1513102231153" duration="354000" />
       <workItem from="1513105395922" duration="13738000" />
+      <workItem from="1513198943631" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14092000" />
+    <option name="totallyTimeSpent" value="14930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,9 +182,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24338235" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24264705" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -290,99 +218,303 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChellengeManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
+        <state relative-caret-position="306">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <marker date="1513106581153" expanded="true" signature="6:44" ph="..." />
-            <marker date="1513106581153" expanded="true" signature="94:7474" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="931:1066" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="1092:2653" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="1463:2647" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="1619:2637" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="1681:2133" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="1811:1922" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="1966:2069" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="2188:2623" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="2298:2389" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="2433:2538" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="2681:3648" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="2815:2893" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="2945:3011" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="3054:3115" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="3162:3224" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="3367:3579" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="3691:7392" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="3715:5074" ph="Switching Weapons" />
-            <marker date="1513106581153" expanded="true" signature="3803:4395" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="4463:5055" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="5084:5552" ph="Checking for users input to keys" />
-            <marker date="1513106581153" expanded="true" signature="5153:5201" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="5235:5283" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="5329:5408" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="5454:5533" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="5563:7047" ph="Weapon Shooting" />
-            <marker date="1513106581153" expanded="true" signature="5692:6357" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="6472:7028" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="7056:7385" ph="Weapon Reloading" />
-            <marker date="1513106581153" expanded="true" signature="7134:7366" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="7177:7258" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="7275:7356" ph="{...}" />
-            <marker date="1513106581153" expanded="true" signature="7433:7472" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="34">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="76" lean-forward="false" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
           <folding>
-            <marker date="1513114150886" expanded="false" signature="6:78" ph="..." />
-            <marker date="1513114150886" expanded="true" signature="121:130" ph="{...}" />
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="918">
           <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
           <folding>
-            <marker date="1513124586973" expanded="false" signature="6:78" ph="..." />
-            <marker date="1513124586973" expanded="true" signature="126:2408" ph="{...}" />
-            <marker date="1513124586973" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
-            <marker date="1513124586973" expanded="true" signature="426:1661" ph="Variables" />
-            <marker date="1513124586973" expanded="true" signature="1687:1892" ph="{...}" />
-            <marker date="1513124586973" expanded="true" signature="1737:1886" ph="{...}" />
-            <marker date="1513124586973" expanded="true" signature="1933:2406" ph="{...}" />
-            <marker date="1513124586973" expanded="true" signature="2051:2400" ph="{...}" />
-            <marker date="1513124586973" expanded="true" signature="2120:2390" ph="{...}" />
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="493">
           <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
-            <marker date="1513124586893" expanded="true" signature="6:78" ph="..." />
-            <marker date="1513124586893" expanded="true" signature="125:816" ph="{...}" />
-            <marker date="1513124586893" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
-            <marker date="1513124586893" expanded="true" signature="252:529" ph="Variables" />
-            <marker date="1513124586893" expanded="true" signature="581:669" ph="{...}" />
-            <marker date="1513124586893" expanded="true" signature="694:738" ph="{...}" />
-            <marker date="1513124586893" expanded="true" signature="766:814" ph="{...}" />
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChellengeManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
           </folding>
         </state>
       </provider>
