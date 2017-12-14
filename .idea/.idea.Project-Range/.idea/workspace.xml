@@ -21,10 +21,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChallengeManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChallengeManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="544">
               <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
               <folding>
                 <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
@@ -36,6 +36,91 @@
                 <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
                 <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
                 <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/UIManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <marker date="1510652220000" expanded="false" signature="6:100" ph="..." />
+                <marker date="1510652220000" expanded="true" signature="140:1276" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="423:508" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="534:1274" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="581:665" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="678:762" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="811:953" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="882:943" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="984:1052" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="1086:1155" ph="{...}" />
+                <marker date="1510652220000" expanded="true" signature="1190:1259" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScriptableObjectUtility.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/ScriptableObjectUtility.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <marker date="1513259359281" expanded="false" signature="6:54" ph="..." />
+                <marker date="1513259359281" expanded="true" signature="106:231" ph="///&#9;This makes it easy to create, name and place unique new ScriptableObject asset files. ... " />
+                <marker date="1513259359281" expanded="true" signature="298:1028" ph="{...}" />
+                <marker date="1513259359281" expanded="true" signature="459:508" ph="{...}" />
+                <marker date="1513259359281" expanded="true" signature="556:683" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChallengeInfoAsset.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/ChallengeInfoAsset.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <marker date="1513259359365" expanded="false" signature="6:97" ph="..." />
+                <marker date="1513259359365" expanded="true" signature="149:310" ph="{...}" />
+                <marker date="1513259359365" expanded="true" signature="234:308" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChallengeInfo.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/ChallengeInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding>
+                <marker date="1513268969221" expanded="true" signature="6:40" ph="..." />
+                <marker date="1513268969221" expanded="true" signature="73:84" ph="{...}" />
+                <marker date="1513268969221" expanded="true" signature="130:618" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChallengeMenu.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeMenu.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+              <folding>
+                <marker date="1513270013928" expanded="true" signature="6:100" ph="..." />
+                <marker date="1513270013928" expanded="true" signature="145:990" ph="{...}" />
+                <marker date="1513270013928" expanded="true" signature="152:323" ph="Variables" />
+                <marker date="1513270013928" expanded="true" signature="349:507" ph="{...}" />
+                <marker date="1513270013928" expanded="true" signature="401:501" ph="{...}" />
+                <marker date="1513270013928" expanded="true" signature="550:973" ph="{...}" />
+                <marker date="1513270013928" expanded="true" signature="737:827" ph="{...}" />
+                <marker date="1513270013928" expanded="true" signature="840:958" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,8 +162,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ScriptableObjectUtility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/ChallengeInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ChallengeInfoAsset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,6 +178,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/ChallengeInfoAsset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/ChallengeInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeMenu.cs" />
       </list>
     </option>
   </component>
@@ -97,9 +190,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="97" />
-    <option name="y" value="-15" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="31" />
+    <option name="y" value="-8" />
     <option name="width" value="1279" />
     <option name="height" value="728" />
   </component>
@@ -124,7 +217,7 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Project-Range (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project-Range (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -165,12 +258,14 @@
       <updated>1513102224058</updated>
       <workItem from="1513102231153" duration="354000" />
       <workItem from="1513105395922" duration="13738000" />
-      <workItem from="1513198943631" duration="838000" />
+      <workItem from="1513198943631" duration="973000" />
+      <workItem from="1513254465555" duration="831000" />
+      <workItem from="1513259357119" duration="9528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14930000" />
+    <option name="totallyTimeSpent" value="25424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,8 +277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24264705" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -218,6 +312,172 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1510652220000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1510652220000" expanded="true" signature="140:1276" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="423:508" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="534:1274" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="581:665" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="678:762" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="811:953" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="882:943" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="984:1052" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="1086:1155" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="1190:1259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ScriptableObjectUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <marker date="1513259359281" expanded="false" signature="6:54" ph="..." />
+            <marker date="1513259359281" expanded="true" signature="106:231" ph="///&#9;This makes it easy to create, name and place unique new ScriptableObject asset files. ... " />
+            <marker date="1513259359281" expanded="true" signature="298:1028" ph="{...}" />
+            <marker date="1513259359281" expanded="true" signature="459:508" ph="{...}" />
+            <marker date="1513259359281" expanded="true" signature="556:683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ChallengeInfoAsset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <marker date="1513259359365" expanded="false" signature="6:97" ph="..." />
+            <marker date="1513259359365" expanded="true" signature="149:310" ph="{...}" />
+            <marker date="1513259359365" expanded="true" signature="234:308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <marker date="1513175492000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513175492000" expanded="true" signature="125:816" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="132:246" ph="/* What I want the script to do ... */" />
+            <marker date="1513175492000" expanded="true" signature="252:529" ph="Variables" />
+            <marker date="1513175492000" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="694:738" ph="{...}" />
+            <marker date="1513175492000" expanded="true" signature="766:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/TargetsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513199350564" expanded="true" signature="126:2437" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="133:420" ph="/* Scripts Things ... */" />
+            <marker date="1513199350564" expanded="true" signature="426:1690" ph="Variables" />
+            <marker date="1513199350564" expanded="true" signature="1716:1921" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1766:1915" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
+            <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1510652220000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1510652220000" expanded="true" signature="140:1276" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="423:508" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="534:1274" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="581:665" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="678:762" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="811:953" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="882:943" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="984:1052" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="1086:1155" ph="{...}" />
+            <marker date="1510652220000" expanded="true" signature="1190:1259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/InGame/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -503,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="544">
           <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <marker date="1513199350564" expanded="false" signature="6:78" ph="..." />
@@ -515,6 +775,61 @@
             <marker date="1513199350564" expanded="true" signature="1962:2435" ph="{...}" />
             <marker date="1513199350564" expanded="true" signature="2080:2429" ph="{...}" />
             <marker date="1513199350564" expanded="true" signature="2149:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ScriptableObjectUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <marker date="1513259359281" expanded="false" signature="6:54" ph="..." />
+            <marker date="1513259359281" expanded="true" signature="106:231" ph="///&#9;This makes it easy to create, name and place unique new ScriptableObject asset files. ... " />
+            <marker date="1513259359281" expanded="true" signature="298:1028" ph="{...}" />
+            <marker date="1513259359281" expanded="true" signature="459:508" ph="{...}" />
+            <marker date="1513259359281" expanded="true" signature="556:683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ChallengeInfoAsset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <marker date="1513259359365" expanded="false" signature="6:97" ph="..." />
+            <marker date="1513259359365" expanded="true" signature="149:310" ph="{...}" />
+            <marker date="1513259359365" expanded="true" signature="234:308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/ChallengeInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <marker date="1513268969221" expanded="true" signature="6:40" ph="..." />
+            <marker date="1513268969221" expanded="true" signature="73:84" ph="{...}" />
+            <marker date="1513268969221" expanded="true" signature="130:618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/Challenges/ChallengeMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <marker date="1513270013928" expanded="true" signature="6:100" ph="..." />
+            <marker date="1513270013928" expanded="true" signature="145:990" ph="{...}" />
+            <marker date="1513270013928" expanded="true" signature="152:323" ph="Variables" />
+            <marker date="1513270013928" expanded="true" signature="349:507" ph="{...}" />
+            <marker date="1513270013928" expanded="true" signature="401:501" ph="{...}" />
+            <marker date="1513270013928" expanded="true" signature="550:973" ph="{...}" />
+            <marker date="1513270013928" expanded="true" signature="737:827" ph="{...}" />
+            <marker date="1513270013928" expanded="true" signature="840:958" ph="{...}" />
           </folding>
         </state>
       </provider>
