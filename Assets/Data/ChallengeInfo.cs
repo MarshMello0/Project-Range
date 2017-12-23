@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Runtime.Remoting.Messaging;
+using UnityEngine;
 using UnityEngine.UI;
 
 public enum Weapons_Restriction
 {
-    M9
+    M9,Rocket_Launcher
 }
 public class ChallengeInfo : ScriptableObject
 {
@@ -20,5 +21,8 @@ public class ChallengeInfo : ScriptableObject
     public float challenge_BronzeTime;
     [Header("Challange Rules")]
     public Weapons_Restriction challenge_wepaon;
+
+    [Header("Extras")] 
+    public bool challenege_Unlocked;
 
 }

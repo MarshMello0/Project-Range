@@ -13,11 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   challenge_Name: Accuracy Test
   challenge_Dec: Test your aim on our first basic test.
-  challenge_PScore: 
+  challenge_PScore: 0
   challenge_GoldPoints: 0
   challenge_SliverPoints: 0
   challenge_BronzePoints: 0
   challenge_GoldTime: 0
   challenge_SliverTime: 0
   challenge_BronzeTime: 0
-  challenge_wepaon: 0
+  challenge_wepaon: 1
+  challenege_Unlocked: 1
